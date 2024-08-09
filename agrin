@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa Agrinho</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Programa Agrinho</h1>
+    </header>
+
+    <div class="container">
+        <h2>O que é o Programa Agrinho?</h2>
+        <p>O Programa Agrinho é uma iniciativa que promove a educação no campo,...</p>
+        <p>O Programa foi criado para ajudar pessoas da area rural que enfrentam dificuldades na educação. Também promovendo um concurso entre os estudantes para a criação de um site</p>
+        <p>Para saber mais, visite o site oficial do <a href="https://www.agrinho.com.br" target="_blank">Programa Agrinho</a>.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Programa Agrinho. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
